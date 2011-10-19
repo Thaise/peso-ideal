@@ -11,7 +11,7 @@ public class PesoIdealTest {
 		double altura = 1.63;
 		String sexo = "F";
 		String pesoIdeal = CalculaPesoIdeal.calculoImc(peso, altura, sexo);
-		assertEquals("IMC = "+20.0+" - Seu IMC indica: Peso Normal.", pesoIdeal);
+		assertEquals("IMC = 19.53 - Seu IMC indica: Peso Normal.", pesoIdeal);
 	}
 	
 	@Test
@@ -20,7 +20,7 @@ public class PesoIdealTest {
 		double altura = 1.70;
 		String sexo = "M";
 		String pesoIdeal = CalculaPesoIdeal.calculoImc(peso, altura, sexo);
-		assertEquals( "IMC = "+52.0+" - Seu IMC indica: Obesidade Grave ou Mórbida.", pesoIdeal);
+		assertEquals( "IMC = 51.90 - Seu IMC indica: Obesidade Grave ou MÃ³rbida.", pesoIdeal);
 	}
 	
 	@Test
@@ -29,7 +29,7 @@ public class PesoIdealTest {
 		double altura = 1.73;
 		String sexo = "M";
 		String pesoIdeal = CalculaPesoIdeal.calculoImc(peso, altura, sexo);
-		assertEquals("IMC = "+16.0+" - Seu IMC indica: Abaixo do Peso.", pesoIdeal);
+		assertEquals("IMC = 16.04 - Seu IMC indica: Abaixo do Peso.", pesoIdeal);
 	}
 
 
