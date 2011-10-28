@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 
+import java.text.DecimalFormat;
+
 import org.junit.Test;
 
 
